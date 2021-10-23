@@ -17,6 +17,23 @@ public class TestBase {
         wd.navigate().to("https://contacts-app.tobbymarshall815.vercel.app/home");
         wd.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
     }
+    @BeforeMethod
+    public void preCondition(){
+        if(islogged() == true){
+            logout();
+        }
+    }
+
+    private void logout() {
+        if(islogged()==true){
+            click(By.xpath("//button[text()='Sign Out']"));
+        }
+    }
+
+    private boolean islogged() {
+        wd.findElements(By.xpath("//button[text()='Sign Out']"));
+        return true;
+    }
 
     public boolean isElementPresent(By locator) {
         return wd.findElements(locator).size()>0;

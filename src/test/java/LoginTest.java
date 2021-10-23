@@ -5,10 +5,6 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class LoginTest extends TestBase{
-    @BeforeMethod
-    public void preCondition(){
-
-    }
 
 
     @Test
@@ -28,7 +24,8 @@ public class LoginTest extends TestBase{
         //click  Login button
         wd.findElement(By.xpath("//button[1]")).click();
         //Assert if button Logout is
-        Assert.assertTrue(wd.findElements(By.xpath("//button[text()='SingOut']")).size()>0);
+        Assert.assertTrue(wd.findElements(By.xpath("//button[text()='Sign Out']")).size()>0);
+        //Assert.assertTrue(wd.findElements(By.xpath("//button[.='Sign Out']")).size()>0);
     }
         @Test
     public void loginTest2(){
@@ -39,7 +36,7 @@ public class LoginTest extends TestBase{
         fillLoginRegistrationForm(email,password);
         submitlogin();
         pause(5000);
-        Assert.assertTrue(isElementPresent(By.xpath("//button[text()='SingOut']")));
+        Assert.assertTrue(isElementPresent(By.xpath("//button[text()='Sign Out']")));
         }
 
 

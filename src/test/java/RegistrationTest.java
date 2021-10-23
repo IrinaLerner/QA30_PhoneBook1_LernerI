@@ -5,12 +5,6 @@ import org.testng.annotations.Test;
 
 public class RegistrationTest extends TestBase{
 
-    @BeforeMethod
-    public void preCondition(){
-        //if(isLogger()){
-          //  logout();
-       // }
-    }
 
 
 
@@ -26,7 +20,7 @@ public class RegistrationTest extends TestBase{
     fillLoginRegistrationForm(email,password);
     submitRegistration();
 
-        Assert.assertTrue(isElementPresent(By.xpath("//button[text()='SingOut']")));
+        Assert.assertTrue(isElementPresent(By.xpath("//button[text()='Sign Out']")));
     }
 
 
@@ -41,7 +35,7 @@ public class RegistrationTest extends TestBase{
         openLoginRegistrationForm();
         fillLoginRegistrationForm(email,password);
         submitRegistration();
-        Assert.assertTrue(isElementPresent(By.xpath("//button[text()='SingOut']")));
+        Assert.assertFalse(isElementPresent(By.xpath("//button[text()='Sign Out']")));
         }
 
 }
