@@ -14,12 +14,12 @@ public class HelperBase {
 
     public boolean isElementPresent(By locator) {
 
-        return wd.findElements(locator).size()>0;
+        return wd.findElements(locator).size() > 0;
     }
 
-    public void type(By locator,String text) {
+    public void type(By locator, String text) {
 
-        if (text != null) {
+        if (text != null && text.isEmpty()) {
             WebElement element = wd.findElement(locator);
             element.click();
             element.clear();
@@ -27,16 +27,16 @@ public class HelperBase {
         }
     }
 
-        public void click(By locator){
+    public void click(By locator) {
 
-            wd.findElement(locator).click();
-        }
+        wd.findElement(locator).click();
+    }
 
-        public void pause(int millis){
-            try {
-                Thread.sleep(millis);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+    public void pause(int millis) {
+        try {
+            Thread.sleep(millis);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
         }
+    }
 }

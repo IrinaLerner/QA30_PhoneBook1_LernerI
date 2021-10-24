@@ -3,7 +3,7 @@ package manager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class HelperUser extends HelperBase{
+public class HelperUser extends HelperBase {
 
     public HelperUser(WebDriver wd) {
         super(wd);
@@ -15,8 +15,8 @@ public class HelperUser extends HelperBase{
 
     public void fillLoginRegistrationForm(String email, String password) {
 
-        type(By.xpath("//input[1]") ,email);
-        type(By.xpath("//input[2]"),password);
+        type(By.xpath("//input[1]"), email);
+        type(By.xpath("//input[2]"), password);
 
     }
 
@@ -26,7 +26,7 @@ public class HelperUser extends HelperBase{
     }
 
 
-    public void submitlogin(){
+    public void submitlogin() {
 
         click(By.xpath("//button[1]"));
     }
