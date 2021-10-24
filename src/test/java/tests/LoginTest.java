@@ -1,3 +1,5 @@
+package tests;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
@@ -5,10 +7,16 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class LoginTest extends TestBase{
-
+    @BeforeMethod
+    public void preCondition(){
+        if(app.getUser().islogged()){
+            app.getUser().logout();
+        }
+    }
 
     @Test
     public void loginPositiveTest(){
+        /*
         //open login/Reg form
         WebElement loginBtn = wd.findElement(By.xpath("//*[text()='LOGIN']"));
         loginBtn.click();
@@ -26,17 +34,20 @@ public class LoginTest extends TestBase{
         //Assert if button Logout is
         Assert.assertTrue(wd.findElements(By.xpath("//button[text()='Sign Out']")).size()>0);
         //Assert.assertTrue(wd.findElements(By.xpath("//button[.='Sign Out']")).size()>0);
+
+         */
     }
         @Test
     public void loginTest2(){
         String email = "Irina@gmail.com";
         String password ="Irina14$";
 
-        openLoginRegistrationForm();
-        fillLoginRegistrationForm(email,password);
-        submitlogin();
-        pause(5000);
-        Assert.assertTrue(isElementPresent(By.xpath("//button[text()='Sign Out']")));
+        app.getUser().openLoginRegistrationForm();
+        app.getUser().fillLoginRegistrationForm(email,password);
+        app.getUser().submitlogin();
+        app.getUser().pause(5000);
+        //Assert.assertTrue(isElementPresent(By.xpath("//button[text()='Sign Out']")));
+            Assert.assertTrue(app.getUser().islogged());
         }
 
 
