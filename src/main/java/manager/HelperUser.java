@@ -6,10 +6,12 @@ import org.openqa.selenium.WebDriver;
 public class HelperUser extends HelperBase {
 
     public HelperUser(WebDriver wd) {
+
         super(wd);
     }
 
     public void submitRegistration() {
+
         click(By.xpath("//button[2]"));
     }
 
@@ -38,6 +40,7 @@ public class HelperUser extends HelperBase {
     }
 
     public boolean islogged() {
+
         return isElementPresent(By.xpath("//button[text()='Sign Out']"));
     }
 }
