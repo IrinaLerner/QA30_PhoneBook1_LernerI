@@ -1,7 +1,10 @@
 package manager;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HelperUser extends HelperBase {
 
@@ -42,5 +45,27 @@ public class HelperUser extends HelperBase {
     public boolean islogged() {
 
         return isElementPresent(By.xpath("//button[text()='Sign Out']"));
+    }
+
+    public boolean isAlertPresent() {
+       Alert alert =  new WebDriverWait(wd,10).until(ExpectedConditions.alertIsPresent());
+       if(alert== null){
+           return false;
+       }else {
+           wd.switchTo().alert();
+           System.out.println(alert.getText());
+           alert.accept();
+           //alert.dismiss();
+          // alert.sendKeys("fbg");
+           //alert.getText();
+           return true;
+       }
+    }
+
+    public boolean isErrorMessageWrongFormat() {
+        Alert alert =  new WebDriverWait(wd,10).until(ExpectedConditions.alertIsPresent());
+        String error = alert.getText();
+
+        return error.contains("Wrong email or password format");
     }
 }
