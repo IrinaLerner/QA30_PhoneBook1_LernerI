@@ -1,5 +1,6 @@
 package tests;
 
+import models.User;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
@@ -39,8 +40,10 @@ public class LoginTest extends TestBase{
     }
         @Test
     public void loginTest2(){
-        String email = "Irina@gmail.com";
-        String password ="Irina14$";
+        //String email = "Irina@gmail.com";
+            String email = "noa@gmail.com";
+        //String password ="Irina14$";
+            String password ="Nnoa12345$";
 
         app.getUser().openLoginRegistrationForm();
         app.getUser().fillLoginRegistrationForm(email,password);
@@ -49,6 +52,22 @@ public class LoginTest extends TestBase{
         //Assert.assertTrue(isElementPresent(By.xpath("//button[text()='Sign Out']")));
             Assert.assertTrue(app.getUser().islogged());
         }
+
+    @Test
+    public void loginTestModel(){
+        String email = "noa@gmail.com";
+        String password ="Nnoa12345$";
+        User user = new User().withEmail(email).withPassword(password);
+
+        app.getUser().openLoginRegistrationForm();
+
+        app.getUser().fillLoginRegistrationForm(user);
+
+        app.getUser().submitlogin();
+        app.getUser().pause(2500);
+        //Assert.assertTrue(isElementPresent(By.xpath("//button[text()='Sign Out']")));
+        Assert.assertTrue(app.getUser().islogged());
+    }
 
 
 
