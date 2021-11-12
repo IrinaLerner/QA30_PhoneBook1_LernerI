@@ -1,0 +1,3 @@
+20:12:05  INFO  manager.ApplicationManager - Tests starts on Chrome Driver
+20:12:16  INFO  tests.TestBase - Test Registration Positive starts with >>> niko736@gmail.com &&& Nniko12345$
+20:12:17  INFO  manager.ApplicationManager - Tests passed

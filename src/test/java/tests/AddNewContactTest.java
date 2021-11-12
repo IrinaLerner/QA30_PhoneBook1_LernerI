@@ -1,4 +1,5 @@
 package tests;
 
-public class AddNewContactTest extends {
+public class AddNewContactTest extends TestBase{
+
 }
