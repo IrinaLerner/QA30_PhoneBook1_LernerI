@@ -26,7 +26,6 @@ public class ApplicationManager {
     }
 
     public void stop() {
-        logger.info("Tests passed");
         wd.quit();
 
     }
