@@ -7,7 +7,7 @@ public class AddNewContactTest extends TestBase{
 @BeforeMethod
     public void precondition(){
     if(app.getUser().islogged()){
-        app.getUser().
+       // app.getUser().
     }
 
 }
