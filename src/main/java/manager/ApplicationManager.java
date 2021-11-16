@@ -37,7 +37,7 @@ public class ApplicationManager {
         return user;
     }
 
-    public ContactHelper getContact() {
+    public ContactHelper contact() {
         return contact;
     }
 }

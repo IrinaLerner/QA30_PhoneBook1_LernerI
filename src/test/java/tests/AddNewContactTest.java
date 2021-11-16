@@ -13,7 +13,7 @@ public class AddNewContactTest extends TestBase{
     }
 
 }
-@Test
+@Test (invocationCount = 4)
     public void addNewContactTest(){
     int index = (int)(System.currentTimeMillis()/1000)%3600;
     Contact contact = Contact.builder()
@@ -25,7 +25,7 @@ public class AddNewContactTest extends TestBase{
             .description("friend")
             .build();
     app.contact().openContactForm();
-    app.contact().fillContactForm();
-    app.contact().submitContacr();
+    app.contact().fillContactForm(contact);
+    app.contact().submitContactForm();
 }
 }
