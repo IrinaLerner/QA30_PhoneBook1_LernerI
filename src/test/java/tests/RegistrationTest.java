@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class RegistrationTest extends TestBase {
 
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preCondition() {
         if (app.getUser().islogged()) {
             app.getUser().logout();
@@ -32,7 +32,7 @@ public class RegistrationTest extends TestBase {
     }
 
 
-    @Test
+    @Test(groups = {"web"})
     public void registrationTestWrongEmail() {
 
         int i = (int) (System.currentTimeMillis() / 1000) % 3600;

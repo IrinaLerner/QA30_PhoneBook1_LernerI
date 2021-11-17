@@ -75,4 +75,7 @@ public class HelperUser extends HelperBase {
 
         return error.contains("Wrong email or password format");
     }
+
+    public void login(User withPassword) {
+    }
 }

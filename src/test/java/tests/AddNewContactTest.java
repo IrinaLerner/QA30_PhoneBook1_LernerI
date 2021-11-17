@@ -1,19 +1,23 @@
 package tests;
 
 import models.Contact;
+import models.User;
+import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class AddNewContactTest extends TestBase{
 
-@BeforeMethod
+@BeforeMethod(alwaysRun = true)
     public void precondition(){
-    if(app.getUser().islogged()){
-       // app.getUser().
+    if(!app.getUser().islogged()){
+        app.getUser().login(new User()
+                .withEmail("noa@gmail.com")
+                .withPassword("Nnoa12345$"));
     }
 
 }
-@Test (invocationCount = 4)
+@Test (invocationCount = 1,groups = {"web","smoke"})
     public void addNewContactTest(){
     int index = (int)(System.currentTimeMillis()/1000)%3600;
     Contact contact = Contact.builder()
@@ -27,5 +31,6 @@ public class AddNewContactTest extends TestBase{
     app.contact().openContactForm();
     app.contact().fillContactForm(contact);
     app.contact().submitContactForm();
+    Assert.assertTrue(app.contact().isContactCreated(contact.getPhone()));
 }
 }

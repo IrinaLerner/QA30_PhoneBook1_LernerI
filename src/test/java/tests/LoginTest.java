@@ -6,7 +6,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 public class LoginTest extends TestBase{
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preCondition(){
         if(app.getUser().islogged()){
             app.getUser().logout();
@@ -36,7 +36,7 @@ public class LoginTest extends TestBase{
 
          */
     }
-        @Test
+        @Test(groups = {"web"})
     public void loginTest(){
         //String email = "Irina@gmail.com";
             String email = "noa@gmail.com";
