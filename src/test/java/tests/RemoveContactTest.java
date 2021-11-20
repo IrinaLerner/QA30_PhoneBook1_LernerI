@@ -18,12 +18,11 @@ public class RemoveContactTest extends TestBase{
     @Test
     public void removeOneContact(){
 
-       // app.contact().openListContacts();
-        app.contact().removeOneContact();
+        int result = app.contact().removeOneContact();
         Assert.assertEquals(result,-1);
 
     }
-    public void removeAllContacts(){
+    public void removeAllContact(){
         app.contact().removeAllContacts();
         Assert.assertTrue(app.contact().isContactNotHere());
     }

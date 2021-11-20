@@ -52,7 +52,7 @@ public class ContactHelper extends HelperBase{
             logger.info("The element that was deleted has phone number -->"+phone);
         click(By.cssSelector(".contact-item_card__2SOIM"));
         click(By.xpath("//button[.='Remove']"));
-        pause(5000);
+        pause(500);
     }
         int countAfter =countOfContacts();
         logger.info("Count of Contacts after"+ countAfter);
@@ -65,6 +65,7 @@ public class ContactHelper extends HelperBase{
         return wd.findElements(By.cssSelector(".contact-item__card2SOIM")).isEmpty();
     }
     public int countOfContacts(){
+
         return wd.findElements(By.cssSelector(".contact-item__card2SOIM")).size();
     }
 
@@ -79,6 +80,7 @@ public class ContactHelper extends HelperBase{
     }
 
     public boolean isContactNotHere() {
-        return shouldHave(By.cssSelector(".contact-page_message__2"));
+
+        return shouldHave(By.cssSelector(".contact-page_message__2qafk h1"),"No Contacts here!",10);
     }
 }

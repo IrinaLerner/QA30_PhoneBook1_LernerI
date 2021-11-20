@@ -12,7 +12,7 @@ import java.io.IOException;
 
 public class HelperBase {
     WebDriver wd;
-    //Logger logger = LoggerFactory
+    Logger logger = LoggerFactory.getLogger(HelperBase.class);
 
 
     public HelperBase(WebDriver wd) {
@@ -58,11 +58,12 @@ public class HelperBase {
         }
     }
     public void should(By locator,int time){
+        new WebDriverWait(wd,time).until(ExpectedConditions.visibilityOf(wd.findElement(locator)));
 
     }
-    public void shouldHave(By locator,String text,int time){
-      return =  new WebDriverWait(wd,time);
-        .until(ExpectedConditions.textToBePresentInElement(wd.findElement(locator),text));
+    public boolean shouldHave(By locator,String text,int time){
+        return new WebDriverWait(wd, time)
+                .until(ExpectedConditions.textToBePresentInElement(wd.findElement(locator), text));
 
 
     }
