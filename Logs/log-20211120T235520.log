@@ -1,0 +1,5 @@
+23:55:22  INFO  manager.ApplicationManager - Tests starts on Chrome Driver
+23:55:23  INFO  tests.TestBase - Start test-->removeOneContact
+23:55:23  INFO  manager.MyListener - Start serch element by locator-->By.xpath: //button[text()='Sign Out']
+23:55:30  INFO  manager.MyListener - The element with locator --> By.xpath: //button[text()='Sign Out']was found
+23:55:30  INFO  manager.MyListener - Start serch element by locator-->By.xpath: //a[text()='LOGIN']

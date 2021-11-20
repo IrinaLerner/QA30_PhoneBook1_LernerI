@@ -14,6 +14,7 @@ public class RemoveContactTest extends TestBase{
                     .withEmail("noa@gmail.com")
                     .withPassword("Nnoa12345$"));
         }
+        app.contact().providerOfContacts();
     }
     @Test
     public void removeOneContact(){
@@ -22,6 +23,7 @@ public class RemoveContactTest extends TestBase{
         Assert.assertEquals(result,-1);
 
     }
+    @Test
     public void removeAllContact(){
         app.contact().removeAllContacts();
         Assert.assertTrue(app.contact().isContactNotHere());

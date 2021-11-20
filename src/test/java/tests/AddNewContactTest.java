@@ -17,7 +17,7 @@ public class AddNewContactTest extends TestBase{
     }
 
 }
-@Test (invocationCount = 3,groups = {"web","smoke"})
+@Test (invocationCount = 2,groups = {"web","smoke"})
     public void addNewContactTest(){
     int index = (int)(System.currentTimeMillis()/1000)%3600;
     Contact contact = Contact.builder()
@@ -33,4 +33,26 @@ public class AddNewContactTest extends TestBase{
     app.contact().submitContactForm();
     Assert.assertTrue(app.contact().isContactCreated(contact.getPhone()));
 }
+
+    @Test
+    public void addNewContactTestCheckCount(){
+
+        if(app.contact().countOfContacts()>3) {
+            app.contact().removeAllContacts();
+        }
+
+        int index = (int)(System.currentTimeMillis()/1000)%3600;
+        Contact contact = Contact.builder()
+                .name("Lis")
+                .lastname("Snow")
+                .phone("1234567"+index)
+                .email("lia"+index+"@gmail.com")
+                .address("Haifa")
+                .description("fried").build();
+        app.contact().openContactForm();
+        app.contact().fillContactForm(contact);
+        app.contact().submitContactForm();
+        Assert.assertTrue(app.contact().isContactCreated(contact.getPhone()));
+
+    }
 }

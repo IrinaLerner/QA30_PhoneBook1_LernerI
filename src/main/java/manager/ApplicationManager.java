@@ -35,8 +35,6 @@ public class ApplicationManager {
             logger.info("Tests starts on FireFox Driver");
         }
 
-        wd = new EventFiringWebDriver(new ChromeDriver());
-
         wd.manage().window().maximize();
         wd.navigate().to("https://contacts-app.tobbymarshall815.vercel.app/home");
         wd.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

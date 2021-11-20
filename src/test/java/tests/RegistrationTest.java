@@ -28,12 +28,13 @@ public class RegistrationTest extends TestBase {
         app.getUser().fillLoginRegistrationForm(email, password);
         app.getUser().submitRegistration();
         Assert.assertTrue(app.getUser().islogged());
-        //Assert.assertTrue(isElementPresent(By.xpath("//button[text()='Sign Out']")));
+
     }
 
 
     @Test(groups = {"web"})
     public void registrationTestWrongEmail() {
+        app.getUser().takeScreenshot("src/test/screenshots/rst.png");
 
         int i = (int) (System.currentTimeMillis() / 1000) % 3600;
         String email = "niko" + i + "gmail.com";

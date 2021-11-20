@@ -1,0 +1,15 @@
+14:52:48  INFO  manager.ApplicationManager - Tests starts on Chrome Driver
+14:52:49  INFO  tests.TestBase - Start test-->loginTest
+14:52:49  INFO  manager.MyListener - Start serch element by locator-->By.xpath: //button[text()='Sign Out']
+14:53:00  INFO  manager.MyListener - The element with locator --> By.xpath: //button[text()='Sign Out']was found
+14:53:00  INFO  manager.MyListener - Start serch element by locator-->By.xpath: //a[text()='LOGIN']
+14:53:00  INFO  manager.MyListener - The element with locator --> By.xpath: //a[text()='LOGIN']was found
+14:53:00  INFO  manager.MyListener - Start serch element by locator-->By.xpath: //input[1]
+14:53:00  INFO  manager.MyListener - The element with locator --> By.xpath: //input[1]was found
+14:53:00  INFO  manager.MyListener - Start serch element by locator-->By.xpath: //input[2]
+14:53:00  INFO  manager.MyListener - The element with locator --> By.xpath: //input[2]was found
+14:53:00  INFO  manager.MyListener - Start serch element by locator-->By.xpath: //button[1]
+14:53:00  INFO  manager.MyListener - The element with locator --> By.xpath: //button[1]was found
+14:53:01  INFO  manager.MyListener - Start serch element by locator-->By.xpath: //button[text()='Sign Out']
+14:53:11  INFO  manager.MyListener - The element with locator --> By.xpath: //button[text()='Sign Out']was found
+14:53:11  INFO  tests.TestBase - ****************************************

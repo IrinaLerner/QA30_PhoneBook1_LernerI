@@ -1,0 +1,70 @@
+22:49:56  INFO  manager.ApplicationManager - Tests starts on FireFox Driver
+22:49:57  INFO  tests.TestBase - Start test-->addNewContactTest
+22:49:57  INFO  manager.MyListener - Start serch element by locator-->By.xpath: //button[text()='Sign Out']
+22:50:07  INFO  manager.MyListener - The element with locator --> By.xpath: //button[text()='Sign Out']was found
+22:50:07  INFO  manager.MyListener - Start serch element by locator-->By.xpath: //a[.='ADD']
+22:50:17  INFO  manager.MyListener - Something went wrong!!
+22:50:17  INFO  manager.MyListener - Unable to locate element: //a[.='ADD']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-8LJJU6I', ip: '10.0.0.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7892, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 926bf1c3-4926-4646-9272-0b8b92b34c39
+*** Element info: {Using=xpath, value=//a[.='ADD']}
+22:50:17  INFO  manager.MyListener - org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[.='ADD']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-8LJJU6I', ip: '10.0.0.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7892, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 926bf1c3-4926-4646-9272-0b8b92b34c39
+*** Element info: {Using=xpath, value=//a[.='ADD']}
+22:50:18  INFO  manager.MyListener - This link to screenshot with error-->src/test/screenshots/screenshot-3017.png
+22:50:18  INFO  tests.TestBase - ****************************************
+22:50:18  INFO  tests.TestBase - Start test-->addNewContactTest
+22:50:18  INFO  manager.MyListener - Start serch element by locator-->By.xpath: //button[text()='Sign Out']
+22:50:28  INFO  manager.MyListener - The element with locator --> By.xpath: //button[text()='Sign Out']was found
+22:50:28  INFO  manager.MyListener - Start serch element by locator-->By.xpath: //a[.='ADD']
+22:50:38  INFO  manager.MyListener - Something went wrong!!
+22:50:38  INFO  manager.MyListener - Unable to locate element: //a[.='ADD']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-8LJJU6I', ip: '10.0.0.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7892, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 926bf1c3-4926-4646-9272-0b8b92b34c39
+*** Element info: {Using=xpath, value=//a[.='ADD']}
+22:50:38  INFO  manager.MyListener - org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[.='ADD']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-8LJJU6I', ip: '10.0.0.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7892, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 926bf1c3-4926-4646-9272-0b8b92b34c39
+*** Element info: {Using=xpath, value=//a[.='ADD']}
+22:50:38  INFO  manager.MyListener - This link to screenshot with error-->src/test/screenshots/screenshot-3038.png
+22:50:38  INFO  tests.TestBase - ****************************************
+22:50:38  INFO  tests.TestBase - Start test-->addNewContactTest
+22:50:38  INFO  manager.MyListener - Start serch element by locator-->By.xpath: //button[text()='Sign Out']
+22:50:48  INFO  manager.MyListener - The element with locator --> By.xpath: //button[text()='Sign Out']was found
+22:50:48  INFO  manager.MyListener - Start serch element by locator-->By.xpath: //a[.='ADD']
+22:50:58  INFO  manager.MyListener - Something went wrong!!
+22:50:58  INFO  manager.MyListener - Unable to locate element: //a[.='ADD']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-8LJJU6I', ip: '10.0.0.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7892, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 926bf1c3-4926-4646-9272-0b8b92b34c39
+*** Element info: {Using=xpath, value=//a[.='ADD']}
+22:50:58  INFO  manager.MyListener - org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[.='ADD']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-8LJJU6I', ip: '10.0.0.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 94.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20211103134640, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 7892, moz:profile: C:\Users\User\AppData\Local..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 926bf1c3-4926-4646-9272-0b8b92b34c39
+*** Element info: {Using=xpath, value=//a[.='ADD']}
+22:50:58  INFO  manager.MyListener - This link to screenshot with error-->src/test/screenshots/screenshot-3058.png
+22:50:58  INFO  tests.TestBase - ****************************************

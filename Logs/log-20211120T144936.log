@@ -1,0 +1,76 @@
+14:49:39  INFO  manager.ApplicationManager - Tests starts on Chrome Driver
+14:49:41  INFO  tests.TestBase - Start test-->addNewContactTest
+14:49:41  INFO  manager.MyListener - Start serch element by locator-->By.xpath: //button[text()='Sign Out']
+14:49:52  INFO  manager.MyListener - The element with locator --> By.xpath: //button[text()='Sign Out']was found
+14:49:52  INFO  manager.MyListener - Start serch element by locator-->By.xpath: //a[.='ADD']
+14:50:02  INFO  manager.MyListener - Something went wrong!!
+14:50:02  INFO  manager.MyListener - no such element: Unable to locate element: {"method":"xpath","selector":"//a[.='ADD']"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-8LJJU6I', ip: '10.0.0.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49783}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 896bc667b43ba495d3fa91be863fc1ae
+*** Element info: {Using=xpath, value=//a[.='ADD']}
+14:50:02  INFO  manager.MyListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[.='ADD']"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-8LJJU6I', ip: '10.0.0.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49783}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 896bc667b43ba495d3fa91be863fc1ae
+*** Element info: {Using=xpath, value=//a[.='ADD']}
+14:50:02  INFO  manager.MyListener - This link to screenshot with error-->src/test/screenshots/screenshot-3002.png
+14:50:02  INFO  tests.TestBase - ****************************************
+14:50:02  INFO  tests.TestBase - Start test-->addNewContactTest
+14:50:02  INFO  manager.MyListener - Start serch element by locator-->By.xpath: //button[text()='Sign Out']
+14:50:12  INFO  manager.MyListener - The element with locator --> By.xpath: //button[text()='Sign Out']was found
+14:50:12  INFO  manager.MyListener - Start serch element by locator-->By.xpath: //a[.='ADD']
+14:50:22  INFO  manager.MyListener - Something went wrong!!
+14:50:22  INFO  manager.MyListener - no such element: Unable to locate element: {"method":"xpath","selector":"//a[.='ADD']"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-8LJJU6I', ip: '10.0.0.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49783}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 896bc667b43ba495d3fa91be863fc1ae
+*** Element info: {Using=xpath, value=//a[.='ADD']}
+14:50:22  INFO  manager.MyListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[.='ADD']"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-8LJJU6I', ip: '10.0.0.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49783}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 896bc667b43ba495d3fa91be863fc1ae
+*** Element info: {Using=xpath, value=//a[.='ADD']}
+14:50:22  INFO  manager.MyListener - This link to screenshot with error-->src/test/screenshots/screenshot-3022.png
+14:50:22  INFO  tests.TestBase - ****************************************
+14:50:22  INFO  tests.TestBase - Start test-->addNewContactTest
+14:50:22  INFO  manager.MyListener - Start serch element by locator-->By.xpath: //button[text()='Sign Out']
+14:50:32  INFO  manager.MyListener - The element with locator --> By.xpath: //button[text()='Sign Out']was found
+14:50:32  INFO  manager.MyListener - Start serch element by locator-->By.xpath: //a[.='ADD']
+14:50:42  INFO  manager.MyListener - Something went wrong!!
+14:50:42  INFO  manager.MyListener - no such element: Unable to locate element: {"method":"xpath","selector":"//a[.='ADD']"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-8LJJU6I', ip: '10.0.0.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49783}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 896bc667b43ba495d3fa91be863fc1ae
+*** Element info: {Using=xpath, value=//a[.='ADD']}
+14:50:42  INFO  manager.MyListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[.='ADD']"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-8LJJU6I', ip: '10.0.0.33', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:49783}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 896bc667b43ba495d3fa91be863fc1ae
+*** Element info: {Using=xpath, value=//a[.='ADD']}
+14:50:43  INFO  manager.MyListener - This link to screenshot with error-->src/test/screenshots/screenshot-3042.png
+14:50:43  INFO  tests.TestBase - ****************************************
