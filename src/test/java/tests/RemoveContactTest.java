@@ -14,7 +14,7 @@ public class RemoveContactTest extends TestBase{
                     .withEmail("noa@gmail.com")
                     .withPassword("Nnoa12345$"));
         }
-        app.contact().providerOfContacts();
+        //app.contact().providerOfContacts();
     }
     @Test
     public void removeOneContact(){
