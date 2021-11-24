@@ -27,6 +27,7 @@ public class ApplicationManager {
 
 
     public void init() {
+
         if(browser.equals(BrowserType.CHROME)){
             wd= new EventFiringWebDriver(new ChromeDriver());
             logger.info("Tests starts on Chrome Driver");
