@@ -1,0 +1,26 @@
+16:19:02  INFO  manager.ApplicationManager - Tests starts on Chrome Driver
+16:19:03  INFO  tests.TestBase - Start test-->removeOneContact
+16:19:03  INFO  manager.MyListener - Start serch element by locator-->By.xpath: //button[text()='Sign Out']
+16:19:13  INFO  manager.MyListener - The element with locator --> By.xpath: //button[text()='Sign Out']was found
+16:19:13  INFO  manager.MyListener - Start serch element by locator-->By.xpath: //a[text()='LOGIN']
+16:19:13  INFO  manager.MyListener - The element with locator --> By.xpath: //a[text()='LOGIN']was found
+16:19:14  INFO  manager.MyListener - Start serch element by locator-->By.xpath: //input[1]
+16:19:14  INFO  manager.MyListener - The element with locator --> By.xpath: //input[1]was found
+16:19:14  INFO  manager.MyListener - Start serch element by locator-->By.xpath: //input[2]
+16:19:14  INFO  manager.MyListener - The element with locator --> By.xpath: //input[2]was found
+16:19:14  INFO  manager.MyListener - Start serch element by locator-->By.xpath: //button[1]
+16:19:14  INFO  manager.MyListener - The element with locator --> By.xpath: //button[1]was found
+16:19:15  INFO  manager.MyListener - Start serch element by locator-->By.cssSelector: .contact-page_leftdiv__yhyke div
+16:19:15  INFO  manager.MyListener - The element with locator --> By.cssSelector: .contact-page_leftdiv__yhyke divwas found
+16:19:15  INFO  manager.HelperBase - Count of Contacts before5
+16:19:15  INFO  manager.MyListener - Start serch element by locator-->By.cssSelector: .contact-item_card__2SOIM h3
+16:19:15  INFO  manager.MyListener - The element with locator --> By.cssSelector: .contact-item_card__2SOIM h3was found
+16:19:15  INFO  manager.HelperBase - The element that was deleted has phone number -->99005535
+16:19:15  INFO  manager.MyListener - Start serch element by locator-->By.cssSelector: .contact-page_leftdiv__yhyke div
+16:19:15  INFO  manager.MyListener - The element with locator --> By.cssSelector: .contact-page_leftdiv__yhyke divwas found
+16:19:15  INFO  manager.MyListener - Start serch element by locator-->By.xpath: //button[.='Remove']
+16:19:15  INFO  manager.MyListener - The element with locator --> By.xpath: //button[.='Remove']was found
+16:19:16  INFO  manager.MyListener - Start serch element by locator-->By.cssSelector: .contact-page_leftdiv__yhyke div
+16:19:16  INFO  manager.MyListener - The element with locator --> By.cssSelector: .contact-page_leftdiv__yhyke divwas found
+16:19:16  INFO  manager.HelperBase - Count of Contacts after4
+16:19:16  INFO  tests.TestBase - ****************************************

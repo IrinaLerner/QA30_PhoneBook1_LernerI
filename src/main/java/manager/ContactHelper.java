@@ -74,7 +74,7 @@ public class ContactHelper extends HelperBase {
 
 
     public void removeAllContacts() {
-        while (wd.findElements(By.cssSelector(".contact-item__card2SOIM")).size() != 0) {
+        while (wd.findElements(By.cssSelector(".contact-page_leftdiv__yhyke div")).size() != 0) {
             removeOneContact();
 
         }
