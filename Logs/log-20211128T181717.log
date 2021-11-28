@@ -1,0 +1,42 @@
+18:17:19  INFO  manager.ApplicationManager - Tests starts on Chrome Driver
+18:17:20  INFO  tests.TestBase - Start test-->removeOneContact
+18:17:20  INFO  manager.MyListener - Start serch element by locator-->By.xpath: //button[text()='Sign Out']
+18:17:30  INFO  manager.MyListener - The element with locator --> By.xpath: //button[text()='Sign Out']was found
+18:17:30  INFO  manager.MyListener - Start serch element by locator-->By.xpath: //a[text()='LOGIN']
+18:17:30  INFO  manager.MyListener - The element with locator --> By.xpath: //a[text()='LOGIN']was found
+18:17:30  INFO  manager.MyListener - Start serch element by locator-->By.xpath: //input[1]
+18:17:30  INFO  manager.MyListener - The element with locator --> By.xpath: //input[1]was found
+18:17:30  INFO  manager.MyListener - Start serch element by locator-->By.xpath: //input[2]
+18:17:31  INFO  manager.MyListener - The element with locator --> By.xpath: //input[2]was found
+18:17:31  INFO  manager.MyListener - Start serch element by locator-->By.xpath: //button[1]
+18:17:31  INFO  manager.MyListener - The element with locator --> By.xpath: //button[1]was found
+18:17:32  INFO  manager.MyListener - Start serch element by locator-->By.cssSelector: .contact-page_leftdiv__yhyke div
+18:17:32  INFO  manager.MyListener - The element with locator --> By.cssSelector: .contact-page_leftdiv__yhyke divwas found
+18:17:32  INFO  manager.HelperBase - Count of Contacts before3
+18:17:32  INFO  manager.MyListener - Start serch element by locator-->By.cssSelector: .contact-item_card__2SOIM h3
+18:17:32  INFO  manager.MyListener - The element with locator --> By.cssSelector: .contact-item_card__2SOIM h3was found
+18:17:32  INFO  manager.HelperBase - The element that was deleted has phone number -->111723531698
+18:17:32  INFO  manager.MyListener - Start serch element by locator-->By.cssSelector: .contact-page_leftdiv__yhyke div
+18:17:32  INFO  manager.MyListener - The element with locator --> By.cssSelector: .contact-page_leftdiv__yhyke divwas found
+18:17:32  INFO  manager.MyListener - Start serch element by locator-->By.xpath: //button[.='Remove']
+18:17:42  INFO  manager.MyListener - Something went wrong!!
+18:17:42  INFO  manager.MyListener - no such element: Unable to locate element: {"method":"xpath","selector":"//button[.='Remove']"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-8LJJU6I', ip: '192.168.1.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58751}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fa65df97303ce95042fef83f9ef41aea
+*** Element info: {Using=xpath, value=//button[.='Remove']}
+18:17:42  INFO  manager.MyListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[.='Remove']"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-8LJJU6I', ip: '192.168.1.51', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\User\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:58751}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fa65df97303ce95042fef83f9ef41aea
+*** Element info: {Using=xpath, value=//button[.='Remove']}
+18:17:43  INFO  manager.MyListener - This link to screenshot with error-->src/test/screenshots/screenshot-1062.png
+18:17:43  INFO  tests.TestBase - ****************************************
