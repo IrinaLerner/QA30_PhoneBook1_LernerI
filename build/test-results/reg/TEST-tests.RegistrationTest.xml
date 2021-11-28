@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.RegistrationTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-11-28T18:17:01" hostname="DESKTOP-8LJJU6I" time="3.939">
+  <properties/>
+  <testcase name="registrationTestWrongEmail" classname="tests.RegistrationTest" time="3.939"/>
+  <system-out><![CDATA[20:17:01  INFO  tests.TestBase - Start test-->registrationTestWrongEmail
+hello
+20:17:01  INFO  manager.MyListener - Start serch element by locator-->By.xpath: //button[text()='Sign Out']
+20:17:01  INFO  manager.MyListener - The element with locator --> By.xpath: //button[text()='Sign Out']was found
+hello
+20:17:01  INFO  manager.MyListener - Start serch element by locator-->By.xpath: //button[text()='Sign Out']
+20:17:01  INFO  manager.MyListener - The element with locator --> By.xpath: //button[text()='Sign Out']was found
+Email: niko1022gmail.com
+hello
+20:17:02  INFO  manager.MyListener - Start serch element by locator-->By.xpath: //a[text()='LOGIN']
+20:17:02  INFO  manager.MyListener - The element with locator --> By.xpath: //a[text()='LOGIN']was found
+hello
+20:17:02  INFO  manager.MyListener - Start serch element by locator-->By.xpath: //input[1]
+20:17:02  INFO  manager.MyListener - The element with locator --> By.xpath: //input[1]was found
+hello
+20:17:02  INFO  manager.MyListener - Start serch element by locator-->By.xpath: //input[2]
+20:17:02  INFO  manager.MyListener - The element with locator --> By.xpath: //input[2]was found
+hello
+20:17:02  INFO  manager.MyListener - Start serch element by locator-->By.xpath: //button[2]
+20:17:03  INFO  manager.MyListener - The element with locator --> By.xpath: //button[2]was found
+Wrong email or password format
+            Email must contains one @ and minimum 2 symbols after last dot
+            Password must contain at least one uppercase letter!
+            Password must contain at least one lowercase letter!
+            Password must contain at least one digit!
+            Password must contain at least one special symbol from [‘$’,’~’,’-‘,’_’]!
+20:17:05  INFO  tests.TestBase - ****************************************
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
